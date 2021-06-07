@@ -1,0 +1,37 @@
+
+
+#This is a basic CLI python Application to add New Card to Trello Board. 
+
+#To run the application
+
+1. Configure you key and token in conf.py file.
+
+2. use main.py file to add a card.
+
+When you run main.py you'll be asked for following information through command line 
+1. Card name
+2. List name or the column name on your Trello board 
+3. Label for new card (Since I don't have defined label names, I've used color instead)
+4. Comment for new card.
+
+I have used click library for CLI with python.
+
+If at anytime you need to see the options available, just use --help to see the options.
+
+The total time I took for this task is around 6 hours.
+
+Next development steps for this program can be making everything through Command line, right from creating a board,adding members and updating cards and members.
+
+Also future work includes error handling wherever possible and logging for all successfull attempts.
+
+
+
+example:
+```
+python3 main.py 
+New Card: democard
+Column of the board: Done
+label: red
+comment: anything
+```
+
